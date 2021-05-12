@@ -16,7 +16,7 @@ class Products extends Table {
 }
 
 /// Generamos la database MyDatabase
-@UseMoor(tables: [Products,/* ImagesProducts, ProductsEntries*/])
+@UseMoor(tables: [Products])
 class MyDatabase extends _$MyDatabase {
   MyDatabase(QueryExecutor e) : super(e);
 
